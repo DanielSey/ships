@@ -2,15 +2,10 @@ package com.example.dan2.ships;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 public class CreditsActivity extends Activity {
-
-    TextView text;
 
     View vCred;
 
@@ -21,10 +16,6 @@ public class CreditsActivity extends Activity {
 
         vCred = findViewById(R.id.credAct);
         setBackground();
-
-        text = findViewById(R.id.textView);
-        text.setTextColor(Color.WHITE);
-        text.setText("Hra vytvořená pro předmět TAMZ2.\n\nBy zbo0036");
     }
 
     public void setBackground(){

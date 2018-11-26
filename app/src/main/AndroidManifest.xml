@@ -35,9 +35,12 @@
             android:name=".StatisticsActivity"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
-        <activity android:name=".StartGameActivity"
+        <activity
+            android:name=".RecordsActivity"
             android:configChanges="orientation"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".DBHelper" />
+        <activity android:name=".Aicko"></activity>
     </application>
 
 </manifest>

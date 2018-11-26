@@ -2,15 +2,15 @@ package com.example.dan2.ships;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class SettingsActivity extends Activity {
 
-    //int back;
-    //int setBack = 3;
     View vSett;
+
+    MediaPlayer rollover1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +20,8 @@ public class SettingsActivity extends Activity {
         vSett = findViewById(R.id.settAct);
         setBackground();
 
-        //Toast.makeText(getApplicationContext(), "text: " + back, Toast.LENGTH_LONG).show();
-
+        //sound
+        rollover1 = MediaPlayer.create(this, R.raw.rollover3);
     }
 
     public void setBackground(){
@@ -44,6 +44,7 @@ public class SettingsActivity extends Activity {
 
     //back "button"
     public void closeActivity(View view){
+        rollover1.start();
         Intent intent = new Intent();
         intent.putExtra("background", 0);
         setResult(100, intent);

@@ -18,6 +18,7 @@
         android:layout_marginBottom="8dp"
         android:src="@drawable/play"
         android:onClick="startPlayActivity"
+        android:contentDescription="@string/Main_image_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.039"
@@ -32,14 +33,15 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/statistics"
         android:onClick="startStatisticsActivity"
+        android:src="@drawable/statistics"
+        android:contentDescription="@string/Main_image_Statistics"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.663" />
 
     <ImageView
         android:id="@+id/imageSettings"
@@ -49,14 +51,15 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/settings"
         android:onClick="startSettingsActivity"
+        android:src="@drawable/settings"
+        android:contentDescription="@string/Main_image_Settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintHorizontal_bias="0.023"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <ImageView
         android:id="@+id/imageCredits"
@@ -68,12 +71,13 @@
         android:layout_marginBottom="8dp"
         android:onClick="startCreditActivity"
         android:src="@drawable/credits"
+        android:contentDescription="@string/Main_image_Credits"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843" />
+        app:layout_constraintVertical_bias="0.856" />
 
     <ImageView
         android:id="@+id/imageExit"
@@ -85,11 +89,12 @@
         android:layout_marginBottom="8dp"
         android:onClick="exitApp"
         android:src="@drawable/exit"
+        android:contentDescription="@string/Main_image_exit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="0.975" />
 
 </android.support.constraint.ConstraintLayout>

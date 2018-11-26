@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Ships</string>
+
+    <!--Credits Activity-->
+    <string name="Credits_text">Hra vytvořená pro předmět TAMZ2.\n\nBy zbo0036</string>
+    <string name="Credits_image_credits">image credits</string>
+    <string name="Credits_image_back">image back</string>
+
+    <!--Main Activity-->
+    <string name="Main_image_play">image play</string>
+    <string name="Main_image_Statistics">image Statistics</string>
+    <string name="Main_image_Settings">image Settings</string>
+    <string name="Main_image_Credits">image Credits</string>
+    <string name="Main_image_exit">image exit</string>
+
+    <!--Records Activity-->
+    <string name="records_score">Score</string>
+    <string name="records_name">Name:</string>
+    <string name="records_time">Time(sec):</string>
+    <string name="records_shots">Shots:</string>
+    <string name="records_alive">Alived ships:</string>
+    <string name="records_image_back">back button</string>
+
+    <!--Statistics Activity-->
+    <string name="Statistics_Scoreboard">Scoreboard</string>
+    <string name="Statistics_Overall_stats">Overall stats</string>
+    <string name="Statistics_General">General</string>
+    <string name="Statistics_Details">Details</string>
+    <string name="Statistics_games">Games: 0</string>
+    <string name="Statistics_Placed_ships">Placed ships: 0</string>
+    <string name="Statistics_wins">Wins: 0</string>
+    <string name="Statistics_big_ships">Placed big ships: 0</string>
+    <string name="Statistics_loses">Loses: 0</string>
+    <string name="Statistics_middle_ship">Placed middle ships: 0</string>
+    <string name="Statistics_shots">Shots: 0</string>
+    <string name="Statistics_small_ship">Placed small ships: 0</string>
+    <string name="Statistics_ai_shots">AI shots: 0</string>
+    <string name="Statistics_image_Statistics">image Statistics</string>
+    <string name="Statistics_image_back">image back</string>
+    <string name="Statistics_image_reset">image reset</string>
+
+    <!--Settings Activity-->
+    <string name="Settings_image_Settings">image Settings</string>
+    <string name="Settings_image_back">image back</string>
+    <string name="Settings_button">Choose background</string>
+    <string name="Settings_image_back1">image background1</string>
+    <string name="Settings_image_back2">image background2</string>
+    <string name="Settings_image_back3">image background3</string>
+    <string name="Settings_image_back4">image background4</string>
+
+    <!--Play Activity-->
+
 </resources>

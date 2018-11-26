@@ -17,6 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:src="@drawable/settings"
+        android:contentDescription="@string/Settings_image_Settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.035"
@@ -34,6 +35,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="closeActivity"
         android:src="@drawable/back"
+        android:contentDescription="@string/Settings_image_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.018"
@@ -49,7 +51,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Choose background"
+        android:text="@string/Settings_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +60,7 @@
 
     <HorizontalScrollView
         android:layout_width="0dp"
-        android:layout_height="150dp"
+        android:layout_height="155dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -72,7 +74,7 @@
         app:layout_constraintVertical_bias="0.67">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -81,6 +83,7 @@
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/Settings_image_back1"
                 android:onClick="selectedBackground"
                 android:paddingVertical="2.5dp"
                 android:paddingLeft="5dp"
@@ -92,6 +95,7 @@
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/Settings_image_back2"
                 android:onClick="selectedBackground2"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
@@ -102,6 +106,7 @@
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/Settings_image_back3"
                 android:onClick="selectedBackground3"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
@@ -112,6 +117,7 @@
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/Settings_image_back4"
                 android:onClick="selectedBackground4"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
