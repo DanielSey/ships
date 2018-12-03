@@ -31,7 +31,7 @@ public class PlayActivity extends Activity {
     //db
     private DBHelper mydb;
     ArrayAdapter<CharSequence> adapter;
-    int id_To_Update = 0;
+    //int id_To_Update = 0;
 
     //stats
     int games = 0;
@@ -276,7 +276,7 @@ public class PlayActivity extends Activity {
         textBigShip.setText("Name: Big ship\nHP: 5\nPlaced: " + countBigS + "/1");
         textMiddleShip.setText("Name: Middle ship\nHP: 3\nPlaced: " + countMiddleS + "/3");
         textSmallShip.setText("Name: Small ship\nHP: 1\nPlaced: " + countSmallS + "/5");
-        Toast.makeText(getApplicationContext(), "Yours field has been resetted.", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Your field has been resetted.", Toast.LENGTH_LONG).show();
     }
 
     public void setAllInvisible(){

@@ -116,7 +116,7 @@ public class StatisticsActivity extends Activity {
                 startActivity(intent);
             }
         });
-        Toast.makeText(getApplicationContext(), "back:" + selectedBack, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), "back:" + selectedBack, Toast.LENGTH_LONG).show();
     }
 
     public void loadStats(){
@@ -184,7 +184,7 @@ public class StatisticsActivity extends Activity {
                 mySharedEditor.putInt("placedMiddleShips", placedMiddleShips);
                 mySharedEditor.putInt("placedSmallShips", placedSmallShips);
                 mySharedEditor.apply();
-                Toast.makeText(getApplicationContext(), "Statistics has been resetted.", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), "Statistics has been resetted.", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
