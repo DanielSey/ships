@@ -70,7 +70,7 @@ public class RecordsActivity extends Activity {
         }
         vCred = findViewById(R.id.recordsAct);
         setBackground(selBack);
-        Toast.makeText(getApplicationContext(), "back:" + selBack, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), "back:" + selBack, Toast.LENGTH_LONG).show();
     }
 
     public void setBackground(int background){

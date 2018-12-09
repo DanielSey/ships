@@ -184,7 +184,7 @@ public class StatisticsActivity extends Activity {
                 mySharedEditor.putInt("placedMiddleShips", placedMiddleShips);
                 mySharedEditor.putInt("placedSmallShips", placedSmallShips);
                 mySharedEditor.apply();
-                //Toast.makeText(getApplicationContext(), "Statistics has been resetted.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Statistics has been resetted.", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
