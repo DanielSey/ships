@@ -5,5 +5,3 @@
   * náhodně střílející AI
   * možnost customizovat pozadí
   * ukládání nejvyššího skóre
-* #### Možná
-  * možnost hrát přes bluethoot
