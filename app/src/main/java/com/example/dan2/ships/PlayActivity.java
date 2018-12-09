@@ -420,7 +420,7 @@ public class PlayActivity extends Activity {
         }
         if(shot2){
             //water = MediaPlayer.create(getApplicationContext(),waterArr[rndS]);
-            water.start(); //TODO - odkomentovat!!!!!!!!!!! - just testing
+            water.start(); //TODO - odkomentovat!!!!!!!!!! - just testing
 
             a.setBackgroundResource(R.drawable.wall2);
             shottedButtons[indexShotu] = randomShot;
